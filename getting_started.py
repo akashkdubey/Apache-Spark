@@ -6,5 +6,5 @@ is passed to spark context.You can also set different application configuration 
 import pyspark
 from pyspark import SparkContext, SparkConf
 
-conf= SparkConf().setAppName('hello-test')
+conf= SparkConf().setAppName('hello-test').  # setAppName(value) − To set an application name [most commonly used attributes of SparkConf]
 sc = SparkContext(conf=conf)
